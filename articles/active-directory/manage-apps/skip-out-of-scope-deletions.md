@@ -55,7 +55,7 @@ In the Microsoft Graph Explorer, run the following GET query replacing [serviceP
 
    ![GET job query](media/skip-out-of-scope-deletions/skip-03.png)
 
-Copy the Response into a text file. It will look like the JSON text shown below, with values highlighted in yellow specific to your deployment. Add the lines highlighted in green to the end and update the Workday connection password highlighted in blue. 
+Copy the Response into a text file. It will look like the JSON text shown below, with values highlighted in yellow specific to your deployment. Note, the response to the GET will not have a value for SkipOutOfScopeDeletions until it has been added. Add the lines highlighted in green to the end and update the Workday connection password highlighted in blue. 
 
    ![GET job response](media/skip-out-of-scope-deletions/skip-04.png)
 
